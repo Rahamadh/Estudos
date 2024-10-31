@@ -1,0 +1,39 @@
+h1 {
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    border: red;
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+div
+{
+padding: 30px;
+}
+
+
+div label{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#num1 {
+    border-radius: 5px;
+    margin: 20px;
+}
+#num2 {
+    border-radius: 5px;
+
+}
+
+p #resultado{
+
+    font-size: 30px;
+
+
+}
+

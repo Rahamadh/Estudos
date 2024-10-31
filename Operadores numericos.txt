@@ -1,0 +1,40 @@
+OPERADORES NUMERICOS
+
++ adição
+- subtração
+* multiplicação
+** potencialização
+++ incrmento
+-- decremento
+/ duvisaõ
+% resto da visão
++= soma a variavél e mais um numero
+*= multiplica a mesma mariavél e mais um numero
+
+
+_____________________//_________________________
+
+CONVERTER STRING E NUMBER
+
+parseInt = converte em inteiro
+parseFloat = convert em numero fracionario
+number = converte em numero
+
+
+__________________//__________________________
+
+OPERADORES DE COMPARAÇÃO
+
+> MAIOR
+< MENOR
+>= MAIOR OU IGUAL
+<= MENOR OU IGUAL
+=== IGUALDADE(COMPARA AMBOS VALORES)
+!== DIFERENTE(CONPARA SE O VALOR E DEFERENTE)
+
+OPERADORES LOGICOS
+
+&& -> AND
+
+|| -> OR
+! -> NOT
