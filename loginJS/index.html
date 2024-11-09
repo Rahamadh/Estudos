@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function cadastro()
+        {
+           
+            const user = document.querySelector('#email').value;
+           const userSenha = document.querySelector('#senha').value;
+
+           const emailUser = ['joão@email.com','pedro@email.com'];
+           const senha = ['123','456'];
+           const nameUser = ['joão','pedro'];
+            let indice = -1;    
+           let encontrou = false
+
+           for(let l=0; l< user.length; l++)
+           {
+            if(user==emailUser[l] && userSenha ==senha[l])
+            {
+                encontrou = true;
+                indice=l;
+                break;
+                
+            }
+
+        }
+            if(encontrou)
+            {
+                document.getElementById('p').innerHTML = "bem vindo:"+nameUser[indice];
+            }
+            else
+            {
+                document.getElementById('p').innerHTML = "Email ou Senha inválidos";
+            }
+          
+        
+           
+        }
+        cadastro();
+
+    </script>
+    <title>Cadastro</title>
+   
+</head>
+<h1> Bem vindo ao nosso site!</h1>
+<body>
+<div>
+    <input id="email" type="text" placeholder="dirite seu email" required> <br>
+    <input id="senha" type="password" placeholder="digite sua senha"required> <br>
+    <button onclick="cadastro()">Entrar</button><br>
+    <p id="p"></p><br>
+</div>
+    
+</body>
+</html>
