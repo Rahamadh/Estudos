@@ -100,3 +100,5 @@ switch (mes) {
     console.log("quinta");
     break;
 }
+
+console.log("hello world");
